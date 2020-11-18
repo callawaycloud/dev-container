@@ -8,5 +8,5 @@ The Docker Image used as a base salesforce development environment.
 
 ```bash
 docker build -t callawaycloud/sfdx-dev -t callawaycloud/sfdx-dev:[VERSION] .
-docker push callawaycloud/sfdx-dev:[VERSION]
+docker push callawaycloud/sfdx-dev
 ```
