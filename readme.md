@@ -16,7 +16,7 @@ docker push callawaycloud/sfdx-dev
 - From project root
 ```bash
 mkdir -p ./.devcontainer
-echo 'FROM cccjonas/callaway-dev:latest' > ./.devcontainer/Dockerfile
+echo 'FROM callawaycloud/sfdx-dev:latest' > ./.devcontainer/Dockerfile
 ```
 
 ## Usage
